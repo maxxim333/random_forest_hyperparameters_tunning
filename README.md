@@ -14,10 +14,11 @@ As in previous case, this is the dataset of protein polymorphisms with different
 The dataset is heavily manipulated with random noise inserted in each of the values.
 
 #Example of Output and Interpretation:
+
 `
 Original Dataset
 Best Param for Homologs
-{'min_impurity_decrease': 0, 'max_leaf_nodes': 30, 'bootstrap': True, 'min_samples_leaf': 3, 'n_estimators': 28, 'max_features': 'auto', 'min_weight_fraction_leaf': 0.02, 'min_samples_split': 8, 'max_depth': 36, 'class_weight': {0: 4, 1: 1}}
+\{'min_impurity_decrease': 0, 'max_leaf_nodes': 30, 'bootstrap': True, 'min_samples_leaf': 3, 'n_estimators': 28, 'max_features': 'auto', 'min_weight_fraction_leaf': 0.02, 'min_samples_split': 8, 'max_depth': 36, 'class_weight': {0: 4, 1: 1}}
 ----
 Homologs
 TP=  397.0
