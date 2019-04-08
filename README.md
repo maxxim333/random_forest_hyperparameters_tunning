@@ -1,7 +1,7 @@
 # random_forest_hyperparameters_tunning
 In this work I use Random Forest tool on two datasets and find the optimal hyperparameters for the algorithm on both datasets and compare their performance.
 
-#Usage
+# Usage
 I first begin to define a grid with a range of hyperparameters. Then, 100 iterations of train/crossvalidation/performance metrics calculation are performed. The algorithm with the combination yielding the maximal MCC (Matthews Coefficient) is then chosen to be the best. The list of hyperparameters of the best estimator is printed in the screen, along with the list of parameters used and 8 performance metrics (including maximized MCC). 
 
 Also, for each of the dataset, the importance of variables is printed on screen and a graph is generated (an example of graph is included).
@@ -13,7 +13,7 @@ As in previous case, this is the dataset of protein polymorphisms with different
 
 The dataset is heavily manipulated with random noise inserted in each of the values.
 
-#Example of Output and Interpretation:
+# Example of Output and Interpretation:
 
 `
 Original Dataset
