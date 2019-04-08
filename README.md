@@ -15,10 +15,10 @@ The dataset is heavily manipulated with random noise inserted in each of the val
 
 # Example of Output and Interpretation:
 
-`
+```
 Original Dataset
 Best Param for Homologs
-['min_impurity_decrease': 0, 'max_leaf_nodes': 30, 'bootstrap': True, 'min_samples_leaf': 3, 'n_estimators': 28, 'max_features': 'auto', 'min_weight_fraction_leaf': 0.02, 'min_samples_split': 8, 'max_depth': 36, 'class_weight': {0: 4, 1: 1}]
+{'min_impurity_decrease': 0, 'max_leaf_nodes': 30, 'bootstrap': True, 'min_samples_leaf': 3, 'n_estimators': 28, 'max_features': 'auto', 'min_weight_fraction_leaf': 0.02, 'min_samples_split': 8, 'max_depth': 36, 'class_weight': {0: 4, 1: 1}}
 ----
 Homologs
 TP=  397.0
@@ -53,7 +53,8 @@ Variable: PPHDIV               Importance: 0.3075
 Variable: pssm-bative          Importance: 0.08396
 Variable: substitytionmatrix   Importance: 0.05619
 Variable: entropy              Importance: 0.04133
-`
+```
+
 Original Dataset (Homologs) yields the best predictor with MCC of 0.25 for which the parameters are specified inside the brackets. The most important variable is pssm-bative
 
 The orthologs dataset yields the best predictor with a much higher MCC than its homologs counterpart and in this case the most important variable is SIFT.
